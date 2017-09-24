@@ -57,8 +57,8 @@
 		CE84D6151F76252800D305AB /* MVVM ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE84D6191F76252800D305AB /* MVVM_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_ExampleUITests.swift; sourceTree = "<group>"; };
 		CE84D61B1F76252800D305AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE84D6271F76262800D305AB /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = ../Car.swift; sourceTree = "<group>"; };
-		CE84D6291F7627B900D305AB /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewModel.swift; path = ../CarViewModel.swift; sourceTree = "<group>"; };
+		CE84D6271F76262800D305AB /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = Car.swift; sourceTree = "<group>"; };
+		CE84D6291F7627B900D305AB /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewModel.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 		CE84D6331F763BAD00D305AB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CE84D6431F778E6D00D305AB /* MVVM_ExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVM_ExampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,10 +115,10 @@
 				CE84D6421F778BAB00D305AB /* View */,
 				CE84D6401F778B4F00D305AB /* ViewModel */,
 				CE84D5F91F76252800D305AB /* AppDelegate.swift */,
-				CE84D5FD1F76252800D305AB /* Main.storyboard */,
-				CE84D6021F76252800D305AB /* LaunchScreen.storyboard */,
 				CE84D6001F76252800D305AB /* Assets.xcassets */,
 				CE84D6051F76252800D305AB /* Info.plist */,
+				CE84D6021F76252800D305AB /* LaunchScreen.storyboard */,
+				CE84D5FD1F76252800D305AB /* Main.storyboard */,
 			);
 			path = "MVVM Example";
 			sourceTree = "<group>";
@@ -126,8 +126,8 @@
 		CE84D60D1F76252800D305AB /* MVVM ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE84D6431F778E6D00D305AB /* MVVM_ExampleTests.swift */,
 				CE84D6101F76252800D305AB /* Info.plist */,
+				CE84D6431F778E6D00D305AB /* MVVM_ExampleTests.swift */,
 			);
 			path = "MVVM ExampleTests";
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 		CE84D6181F76252800D305AB /* MVVM ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE84D6191F76252800D305AB /* MVVM_ExampleUITests.swift */,
 				CE84D61B1F76252800D305AB /* Info.plist */,
+				CE84D6191F76252800D305AB /* MVVM_ExampleUITests.swift */,
 			);
 			path = "MVVM ExampleUITests";
 			sourceTree = "<group>";
@@ -147,6 +147,7 @@
 				CE84D6291F7627B900D305AB /* CarViewModel.swift */,
 			);
 			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		CE84D6411F778B6B00D305AB /* Model */ = {
@@ -155,6 +156,7 @@
 				CE84D6271F76262800D305AB /* Car.swift */,
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CE84D6421F778BAB00D305AB /* View */ = {
@@ -163,6 +165,7 @@
 				CE84D6331F763BAD00D305AB /* TableViewController.swift */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +357,7 @@
 				CE84D5FE1F76252800D305AB /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		CE84D6021F76252800D305AB /* LaunchScreen.storyboard */ = {
@@ -362,6 +366,7 @@
 				CE84D6031F76252800D305AB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
