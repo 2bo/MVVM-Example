@@ -2,7 +2,8 @@
 
 ## What is this
 
-SwiftによるiOSアプリ開発におけるMVVM(Model-View-ViewModel)適用を学習するために[A practical MVVM example in Swift – Part 1](http://candycode.io/a-practical-mvvm-example-in-swift-part-1/)の記事の内容を写経したものです。
+SwiftによるiOSアプリ開発におけるMVVM(Model-View-ViewModel)適用を**学習するために  
+[A practical MVVM example in Swift – Part 1](http://candycode.io/a-practical-mvvm-example-in-swift-part-1/)の記事の内容を写経したものです。  
 ただし、記事の中ではSwift2で実装されているためSwift3に書き換えています。
 
 
