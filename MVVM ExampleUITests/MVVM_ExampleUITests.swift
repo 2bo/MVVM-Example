@@ -28,9 +28,25 @@ class MVVM_ExampleUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    /**
+     UITest of TableView in TableViewController
+     */
+    func testFerrariF12DataDisplayed(){
+        let app = XCUIApplication()
+        let table = app.tables.element(boundBy: 0)
+        
+        let ferrariCell = table.cells.element(boundBy: 0)
+        XCTAssert(ferrariCell.staticTexts["Ferrari F12"].exists)
+        XCTAssert(ferrariCell.staticTexts["730 HP"].exists)
+        
+        let zondaCell = table.cells.element(boundBy: 1)
+        XCTAssert(zondaCell.staticTexts["Pagani Zonda F"].exists)
+        XCTAssert(zondaCell.staticTexts["602 HP"].exists)
+        
+        let lamboCell = table.cells.element(boundBy: 2)
+        XCTAssert(lamboCell.staticTexts["Lamborghini Aventador"].exists)
+        XCTAssert(lamboCell.staticTexts["700 HP"].exists)
+        
     }
     
 }
