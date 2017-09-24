@@ -1,4 +1,4 @@
-# MVVM Exaple
+# Swift3 iOS MVVM Exaple
 
 ## What is this
 
